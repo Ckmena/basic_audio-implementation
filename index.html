@@ -3,11 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Working with Audio</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
 </head>
 <body>
 	<h1> this is audio </h1>
 	<!-- audio and video are pretty much the same --> 
-	<audio src="audio/STP_Interstate_Love_Song.mp3" autoplay="true" loop controls ></audio>
+	<audio src="audio/STP_Interstate_Love_Song.mp3" autoplay loop controls ></audio>
+	
+	<img data-currenttrack="STP_Interstate_Love_Song.mp3" class="imgTrack" src="images/stp_logo.jpg" alt="band-logo">
+	<img data-currenttrack="Sail.mp3" src="images/stp-thankyou.jpg" alt="album-img" class="imgTrack">
+	<img data-currenttrack="Companion.mp3" src="images/butterfly-stp.jpg" alt="album-img" class="imgTrack">
+
+	<div>
+		<button id="playAudio">Play</button>
+		<button id="pauseAudio">Pause</button>
+		<button id="rewindAudio">Rewind</button>
+	</div>
+
 	<script src="js/main.js"></script>
 	
 </body>
