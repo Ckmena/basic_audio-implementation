@@ -33,5 +33,5 @@
 
 	tracks.forEach(track =>
 		track.addEventListener('click', switchAudioTrack);
-	})()
+	});
 })();
